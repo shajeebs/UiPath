@@ -1,0 +1,11 @@
+logF_BusinessProcessName	Framework
+System1URL	https://acme-test.uipath.com/
+SHA1OnlineURL	http://www.sha1-online.com/
+System1Credential	ACME_Credential
+
+
+in_Config("System1URL").ToString
+
+in_Config("SHA1OnlineURL").ToString
+in_Config("System1Credential").ToString
+
